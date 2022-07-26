@@ -1,7 +1,6 @@
 #### Dockerfile for Keycloak 18.0 /w realm import
 
-1.  For HTTP: `git clone https://github.com/villejuutila/dockerfile-keycloak.git`  
-    For SSH: `git clone git@github.com:villejuutila/dockerfile-keycloak.git`
+1.  Clone the repository with `git clone git@github.com:Metatavu/dockerfile-keycloak.git`  
 2.  Edit *keycloak_import.json* users/clients etc. 
     - Replace *YOUR_REALM_NAME* with actual realm name
     - Replace *YOUR_CLIENT_NAME* with actual client name
